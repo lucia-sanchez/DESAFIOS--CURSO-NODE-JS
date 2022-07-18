@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:wght@400;700&family=PT+Serif+Caption&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: 5%;
+}
+nav{
+    width: 80%;
+    margin-top: 3%;
+    display: flex; justify-content: flex-start;
+    font: 24px 'PT Mono'; color: #04146c;
+}
+.enlace{
+    text-decoration: none;
+}
+.enlace::after {
+    content: '/';
+}
+.enlace:hover{
+    font-weight: bold;
+}
+#derecha{
+    margin-left: auto;
+    font: bold 24px 'PT Mono'; color: #0a2ff1;
+}
+.title{
+    font: 60px 'PT Serif Caption'; color: #0a2ff1;
+}
+h2, p, li{
+    font: 30px 'PT Sans', sans-serif; color: #04146c;
+}
+h2{
+    font-weight: 700;
+}
+ul{
+
+    list-style-type: none;
+}
+#vector{
+    list-style-image: url(./img/vector.svg);
+}
+#foto{list-style-image: url(./img/foto.svg);
+}
+#licencia{
+    list-style-image: url(./img/licencia.svg);
+}
+#precios{
+    list-style-image: url(./img/precio.svg);
+}

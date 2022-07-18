@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{ font-family: 'Roboto';
+}
+/*En el contenedor padre aplico la propiedad display:flex para que su contenido se ubique uno al lado del otro (y no uno debajo del otro, como lo harian por defecto al ser elementos de bloque)*/
+main{
+    display: flex;
+    justify-content: center;
+    /*se centran los dos bloques contenidos por main*/
+    height: 100vh;
+    align-items: center;
+    /*El contenido se alinea verticalemente al centro*/
+
+}
+.description{
+    margin-left: 80px;
+}
+.title{
+    font-size: 4em ; color: #0a2ff1;
+}
+.text{
+    font-size: 2em; color:#04146c;
+}
+#star{
+    width: 30%;
+}
+.pie{
+    font-size: 1em; color: #04146c;
+}
